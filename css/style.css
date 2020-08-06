@@ -366,6 +366,82 @@ h2 {
     background-color: #fbfbfb;
     border: 1px solid transparent;
 }
+/*===============CARUSEL start==================*/
+/* Слайдер */
+.slider {
+    position: relative;
+    padding: 0 30px;
+}
+.slick-slider{}
+/* Слайдер запущен */
+.slick-slider.slick-initialized{}
+/* Слайдер с точками */
+.slick-slider.slick-dotted{}
+/* Ограничивающая оболочка */
+.slick-list {
+    overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track{
+    display: flex;
+}
+/* Слайд */
+.slick-slide{}
+/* Слайд активный (показывается) */
+.slick-slide.slick-active{}
+/* Слайд основной */
+.slick-slide.slick-current{}
+/* Слайд по центру */
+.slick-slide.slick-center{}
+/* Клонированный слайд */
+.slick-slide.slick-cloned{}
+/* Стрелка */
+.slick-arrow{
+    position: absolute;
+    top: 50%;
+    margin: -30px 0px 0px 0px;
+    z-index: 10;
+    font-size: 0;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #000;
+}
+/* Стрелка влево */
+.slick-arrow.slick-prev{
+    left: 0;
+    background-image: url(../img/arrow.png) 0 0 /100% no-repeat;
+}
+/* Стрелка вправо */
+.slick-arrow.slick-next{
+    right: 0;
+    background-image: url(../img/arrow.png) 0 0 /100% no-repeat;
+}
+/* Стрелка не активная */
+.slick-arrow.slick-disabled{}
+/* Точки (булиты) */
+.slick-dots{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slick-dots li{
+    list-style: none;
+    margin: 0px 10px;
+}
+/* Активная точка */
+.slick-dots li.slick-active button{
+    background-color: transparent;
+    border: 1px solid rgb(90, 90, 90);
+}
+/* Элемент точки */
+.slick-dots li button{
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(90, 90, 90);
+    border-radius: 50%;
+}
+/*===============CARUSEL finish==================*/
 .my-portfolio {
     padding: 90px 0;
     display: flex;

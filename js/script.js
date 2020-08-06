@@ -3,4 +3,25 @@ $(document).ready(function(){
         $('.header__burger,.top-menu').toggleClass('active');
         $('body').toggleClass('lock');
     });
+    $('.slider').slick({
+        arrows:true,
+        dots:true,
+        adaptiveHeight:false,
+        slidesToShow:3,
+        slidesToScroll:1,
+        speed:1000,
+        easing:'linear',
+        infinite:true,
+        initialSlide:0,
+        autoplay:true,
+        autoplaySpeed:3000,
+        pauseOnFocus:true,
+        pauseOnHover:true,
+        pauseOnDotsHover:true,
+        draggable:false,
+        swipe:true,
+        touchThreshold:5,
+        touchMove:true,
+        waitForAnimate:true
+    });
 });
