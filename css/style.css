@@ -258,6 +258,8 @@ button {
 
 }
 .header-flier__brackets {
+    position: absolute;
+    right: 0;
     width: 100px;
     margin: 0 auto;
 /*    transform: rotate(45deg) translate(-500px, 50px);*/
@@ -271,6 +273,9 @@ button {
     animation-fill-mode: forwards;
 }
 .header-flier__diez {
+    position: absolute;
+    bottom: 0;
+    right: 0;
     width: 100px;
     margin: 0 auto;
 /*    transform: rotate(20deg) translate(-380px, -130px);*/
@@ -284,6 +289,8 @@ button {
     animation-fill-mode: forwards;
 }
 .header-flier__slash {
+    position: absolute;
+    top: 50%;
     width: 100px;
     margin: 0 auto;
 /*    transform: rotate(-10deg) translate(-100px, -100px);*/
@@ -297,6 +304,8 @@ button {
     animation-fill-mode: forwards;
 }
 .header-flier__divtop {
+    position: absolute;
+    left: 0;
     width: 100px;
     margin: 0 auto;
 /*    transform: rotate(-10deg) translate(100px, -480px);*/
@@ -310,6 +319,9 @@ button {
     animation-fill-mode: forwards;
 }
 .header-flier__divbottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
     width: 100px;
     margin: 0 auto;
 /*    transform: rotate(10deg) translate(100px, -100px);*/
@@ -325,23 +337,23 @@ button {
 /*---------A N I M A T I O N--------*/
 @keyframes move-brackets{
     0%{transform: rotate(0deg) translate(0px, 0px);}
-    100%{transform: rotate(45deg) translate(-500px, 50px);}
+    100%{transform: rotate(45deg) translate(-800px, 850px);}
 }
 @keyframes move-diez{
     0%{transform: rotate(0deg) translate(0px, 0px);}
-    100%{transform: rotate(20deg) translate(-380px, -130px);}
+    100%{transform: rotate(20deg) translate(-1000px, 100px);}
 }
 @keyframes move-slash{
     0%{transform: rotate(0deg) translate(0px, 0px);}
-    100%{transform: rotate(-10deg) translate(-100px, -100px);}
+    100%{transform: rotate(-10deg) translate(-600px, 200px);}
 }
 @keyframes move-divtop{
     0%{transform: rotate(0deg) translate(0px, 0px);}
-    100%{transform: rotate(-10deg) translate(100px, -480px);}
+    100%{transform: rotate(-10deg) translate(500px, 100px);}
 }
 @keyframes move-divbottom{
     0%{transform: rotate(0deg) translate(0px, 0px);}
-    100%{transform: rotate(10deg) translate(100px, -100px);}
+    100%{transform: rotate(10deg) translate(500px, -200px);}
 }
 /*===============examples==================*/
 .container h2 {
