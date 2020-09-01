@@ -115,6 +115,7 @@ button {
 .header {
     background-color: #fbfbfb;
     background: url('../img/bubble_gum.png') 100% 100% no-repeat;
+    overflow: hidden;
     /* max-width: 1600px; */
     /* min-width: 910px; */
     /* background-image: url(../img/bubble_gum.png);
@@ -743,14 +744,14 @@ button {
     }
 /*=======================burger-menu====================*/
     .header {
-    background-color: #fbfbfb;
-    background: url('../img/bubble_gum.png') 130% 100% no-repeat;
+        background-color: #fbfbfb;
+        background: url('../img/bubble_gum.png') 130% 100% no-repeat;
     }
     .phio {
-    font-size: 44px;
+        font-size: 44px;
     }
     .profession {
-    font-size: 16px;
+        font-size: 16px;
     }
     .personality {
         padding-top: 100px;
