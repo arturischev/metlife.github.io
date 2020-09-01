@@ -335,7 +335,7 @@ button {
 /*---------A N I M A T I O N--------*/
 @keyframes move-brackets{
     0%{transform: rotate(0deg) translate(0px, 0px);}
-    100%{transform: rotate(45deg) translate(-800px, 850px);}
+    100%{transform: rotate(45deg) translate(50%, 850%);} /*-800px, 850px*/
 }
 @keyframes move-diez{
     0%{transform: rotate(0deg) translate(0px, 0px);}
@@ -751,6 +751,9 @@ button {
     }
     .profession {
     font-size: 16px;
+    }
+    .personality {
+        padding-top: 100px;
     }
     .header-text .get-more {
     width: 220px;
