@@ -14,7 +14,7 @@
 <body>
     <div class="wraper">
         <div class="header">
-            <div class="top-stripe">
+            <div id="header" class="top-stripe">
                 <div class="head-wrapper">
                     <div class="header__burger">
                         <span></span>
@@ -26,7 +26,7 @@
                         <li><a href="#">Стоимость</a></li>
                     </ul>
                     <p>+123 123 456 789</p>
-                    <a href="#" class="top-call"><span class="call-me">Заказать звонок</span></a>
+                    <a href="#popup" class="top-call"><span class="call-me">Заказать звонок</span></a>
                     <img src="img/phone.png" alt="phone" class="phone">
                 </div>
             </div>
@@ -48,7 +48,7 @@
                 </div> 
             </div>
     </div>
-    <!--    <article class="my-business">
+        <article class="my-business">
         <div class="container">
             <h2>Что я делаю</h2>
             <div class="services">
@@ -144,7 +144,7 @@
                 <div class="bottom_mail"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;&nbsp;example.mail@gmail.com</div>
             </div>
             <div class="footer-social">
-                <a href="#" class="top-call"><span class="call-me">Заказать звонок</span></a>
+                <a href="#popup" class="top-call"><span class="call-me">Заказать звонок</span></a>
                 <div class="footer-social__ico">
                     <a href="#"><span class="vk"></span></a>
                     <a href="#"><span class="face"></span></a>
@@ -160,7 +160,23 @@
                     &copy;Ваня Шустиков, 2020 все права защищены
                 </div>
             </div>
-        </div> -->
+        </div> 
+    </div>
+    <div id="popup" class="popup">
+        <a href="#header" class="popup__area"></a>
+        <div class="popup__body">
+            <div class="popup__content">
+                <a href="#header" class="popup_close">+</a>
+                <div class="popup__title">Окно заказа звонка</div>
+                <div class="popup__text">
+                    <form class="popup__form">
+                        <label for="">Имя клиента</label><input type="text" placeholder="Мое имя"><br>
+                        <label for="">Телефон клиента</label><input type="tel" name="phone-number" id="phone-number" placeholder="Мой номер телефона"><br>
+                        <button type="submit" class="popup__btn-send">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
