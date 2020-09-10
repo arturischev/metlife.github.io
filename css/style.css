@@ -110,16 +110,12 @@ button {
     background-color: transparent;
 }
 /*==============FINISH RESET==================*/
-
+.wraper {
+    max-width: 2000px;
+}
 .header {
     background-color: #fbfbfb;
     background: url('../img/bubble_gum.png') 100% 100% no-repeat;
-    /* overflow: hidden; */
-    /* max-width: 1600px; */
-    /* min-width: 910px; */
-    /* background-image: url(../img/bubble_gum.png);
-    background-position: bottom right;
-    background-repeat: no-repeat; */
 }
 .container {
     max-width: 1200px;
@@ -187,11 +183,17 @@ button {
     border-radius: 5px;
     padding: 15px 40px;
     position: relative;
+    /* display: none; */
+    display: block;
     z-index: 3;
 }
-.top-call {
+.top-call, .bottom-call {
+    /* border: 2px solid #000; */
+    min-width: 25px;
+    min-height: 25px;
     text-decoration: none;
     margin-right: 20px;
+    z-index: 3;
 }
 .call-me:hover {
     background-color: #ff4e2e;
@@ -201,6 +203,7 @@ button {
 .phone {
     z-index: 3;
     display: none;
+    padding-right: 20px;
 }
 .phio {
     font-size: 80px;
@@ -364,10 +367,17 @@ button {
 .services {
     margin: 50px auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.services__block1, .services__block2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-grow: 1;
 }
 .cervice {
-    max-width: 250px;
+    width: 250px;
 }
 .cervice img {
     display: block;
@@ -518,8 +528,8 @@ button {
 .price-flier__brackets1 {
     width: 100px;
     position: absolute;
-    top: -300px;
-    left: -50px;
+    top: -320px;
+    left: 0px;
     /* margin: 0px 0px 0px 0px; */
      transform: rotate(30deg);  
 }
@@ -527,7 +537,7 @@ button {
     width: 100px;
     position: absolute;
     bottom: 50px;
-    left: 0px;
+    left: 50px;
     /* margin: 0 auto; */
      transform: rotate(20deg); 
 }
@@ -563,6 +573,11 @@ button {
 .footer-block {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-menu {
+    min-width: 250px;
+    padding: 0px 15px;
 }
 .bottom-menu{
     padding: 80px 0;
@@ -574,7 +589,8 @@ button {
     color: #8993ad;
 }
 .footer-contacts {
-    padding: 80px 0;
+    min-width: 350px;
+    padding: 80px 10px;
     font-size: 24px;
     line-height: 2;
 }
@@ -587,7 +603,8 @@ button {
     background-image: linear-gradient(to top, #ff8c5c, #ff2f96);
 }
 .footer-social {
-    padding: 80px 0;
+    padding: 80px 10px;
+    min-width: 250px;
 
 }
 .footer-social__ico {
@@ -702,8 +719,35 @@ button {
     margin: 0 0 1em 0;
 }
 .popup__text {}
-.popup__form {}
+.popup__form {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    color: #555;
 
+}
+.popup__form label {
+    font-size: 20px;
+}
+.popup__form input {
+    width: 100%;
+    padding: 8px 8px;
+    margin: 10px auto;
+    border: 1px solid #ff4e2e;
+    border-radius: 5px;
+}
+.popup__btn-send {
+    display: block;
+    width: 70%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #ff4e2e;
+    border-radius: 5px;
+    margin: 20px auto;
+    padding: 15px 0;
+    cursor: pointer;
+}
 /*====================== MEDIA QUERY ======================*/
 
 
@@ -745,6 +789,60 @@ button {
     0%{transform: rotate(0deg) translate(0px, 0px);}
     100%{transform: rotate(10deg) translate(200px, -200px);}
 }
+
+.prices h3 {
+    padding: 70px 50px 20px;
+    /* color: #fff; */
+    /* font-size: 45px; */
+}
+.prices p {
+    padding: 20px 50px 80px;
+    /* color: #fff; */
+    /* font-size: 18px; */
+
+}
+/* .price-flaers {
+    position: relative;
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+} */
+
+.price-flier__brackets1 {
+    /* width: 100px; */
+    /* position: absolute; */
+    /* top: -320px; */
+    left: 110px;
+     /* transform: rotate(30deg);   */
+}
+.price-flier__diez {
+    /* width: 100px; */
+    /* position: absolute; */
+    bottom: 10px;
+    /* left: 50px; */
+     /* transform: rotate(20deg);  */
+}
+.price-flier__slash {
+    /* width: 100px; */
+    /* position: absolute; */
+    top: -340px;
+    /* right: 0px; */
+     /* transform: rotate(-30deg);  */
+}
+/* .price-flier__div {
+    width: 100px;
+    position: absolute;
+    bottom: 20px;
+    right: 200px;
+    transform: rotate(20deg);
+}
+.price-flier__brackets2 {
+    width: 100px;
+    position: absolute;
+    bottom: 50px;
+    right: -50px;
+    transform: rotate(-10deg);
+} */
 }
 
 /* ===============Большие девайсы (десктопы, >= 992px)*/
@@ -854,7 +952,7 @@ button {
     /*    background-color: #638ac1;*/
         border-radius: 5px;
         color: #fff;
-        padding: 17px;
+        padding: 20px;
         margin: 50px;
     }
     .photo-wrapper {
@@ -885,12 +983,53 @@ button {
     0%{transform: rotate(0deg) translate(0px, 0px);}
     100%{transform: rotate(10deg) translate(80px, -150px);}
 }
+/*==FROM-TO==*/
+.prices h3 {
+    padding: 50px 30px 20px;
+    /* color: #fff; */
+    font-size: 32px;
+}
+.price-flier__brackets1 {
+    /* width: 100px; */
+    /* position: absolute; */
+    top: -280px;
+    /* left: 110px; */
+     /* transform: rotate(30deg);   */
+}
+.price-flier__diez {
+    /* width: 100px; */
+    /* position: absolute; */
+    /* bottom: 10px; */
+    /* left: 50px; */
+     /* transform: rotate(20deg);  */
+}
+.price-flier__slash {
+    /* width: 100px; */
+    /* position: absolute; */
+    top: -300px;
+    /* right: 0px; */
+     /* transform: rotate(-30deg);  */
+}
+.price-flier__div {
+    /* width: 100px; */
+    /* position: absolute; */
+    bottom: 10px;
+    left: 50%;
+    /* transform: rotate(20deg); */
+}
+.price-flier__brackets2 {
+    /* width: 100px; */
+    /* position: absolute; */
+    /* bottom: 50px; */
+    /* right: -50px; */
+    /* transform: rotate(-10deg); */
+} 
 }
 
 /*Средние девайсы («таблетки», >= 768px)*/
 @media screen and (max-width:768px){
     .header{
-        height: 1200px;
+        height: 990px;
         background: none;
     }
     .personality {
@@ -913,7 +1052,7 @@ button {
             width: 80%;
             height: 80px;
             text-align: center;
-            font-size: 28px;
+            font-size: 20px;
             border-radius: 5px;
             color: #fff;
             padding: 17px;
@@ -938,6 +1077,19 @@ button {
         font-size: 36px;
         font-weight: bold;
     }
+
+    .footer-menu {
+        padding: 30px 30px;
+        align-self: center;
+    }
+    .bottom-menu {
+        padding: 10px 0;
+    }
+    .footer-social {
+        padding: 40px 30px;
+        /* width: 100%; */
+    }
+    
 /*---------A N I M A T I O N--------*/
 @keyframes move-brackets{
     0%{transform: rotate(0deg) translate(0px, 0px);}
@@ -959,25 +1111,40 @@ button {
     0%{transform: rotate(0deg) translate(0px, 0px);}
     100%{transform: rotate(10deg) translate(-70px, -480px);}
 }
+.prices h3 {
+    line-height: 1.8em;
+}
 
+.prices p {
+    font-size: 28px;
+    line-height: 2em;
+    padding-bottom: 50px;
+}
+.price-flaers {
+    display: none;
+}
 }
 
 /*Малые девайсы («ландшафтные телефоны», >= 576px)*/
 @media screen and (max-width:576px){
-    .call-me {
-        display: none;
-        color: #ff4e2e;
-        border: 1px solid #f82370;
-        border-radius: 5px;
-        padding: 15px 40px;
-        position: relative;
-        z-index: 3;
+    .header{
+        height: 760px;
     }
-    .top-call {
+    .footer-social .call-me {
+        color: #fff;
+        border: 1px solid #ff4e2e;
+        background-color: #ff4e2e;
+        padding: 15px 40px;
+        display: block;
+        width: 80%;
+        text-align: center;
+        font-size: 20px;
+        margin: 0 auto;
+    }
+    .call-me {
         display: none;
     }
     .phone {
-        padding-right: 20px;
         display: block;
     }
     .header-text {
@@ -997,10 +1164,10 @@ button {
             width: 80%;
             height: 80px;
             text-align: center;
-            font-size: 28px;
+            font-size: 20px;
             border-radius: 5px;
             color: #fff;
-            padding: 17px;
+            padding: 21px;
             margin: 50px auto;
         }
         .photo-wrapper {
@@ -1012,7 +1179,12 @@ button {
         background: url('../img/bubble_gum.png') 120% 100% no-repeat;
         background-size: 450px auto;
     }
-    
+    .footer-contacts {
+        padding: 20px 30px;
+    }
+    .footer-social {
+        width: 100%;
+    }
     .my_photo {
         height: 100%;
     }
