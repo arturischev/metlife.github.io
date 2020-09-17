@@ -14,7 +14,7 @@
 <body>
     <div class="wraper">
         <div class="header">
-            <div id="header" class="top-stripe">
+            <div id="header" class="top-stripe lock-padding">
                 <div class="head-wrapper">
                     <div class="header__burger">
                         <span></span>
@@ -37,7 +37,7 @@
                 <div class="header-text">
                     <h1 class="phio">Ваня Шустиков</h1>
                     <p class="profession">Frontend-разработчик и веб-верстальщик</p>
-                    <a href="#" class="to-get-more"><span class="get-more">Узнать больше</span></a>
+                    <span class="get-more">Узнать больше</span><!--<a href="#myModal" id="getmore" class="to-get-more"></a>-->
                 </div>
                 <div class="header-flaers">
                     <div class="header-flier__brackets">&#123; &#125;</div>
@@ -76,7 +76,7 @@
                         </div>
                     </div>
                 </div>
-                <a href="#" class="to-get-more"><span class="get-more">Узнать стоимость</span></a>
+                <span class="get-more">Узнать стоимость</span><!--<a href="#" class="to-get-more"></a>-->
             </div>
         </article>
          <article class="examples">
@@ -95,7 +95,7 @@
                             <img src="img/example_3.jpg" alt="psychology" class="example_img">
                             <p class="example_txt">Сайт магазина "Рыболов"</p>
                         </div>
-                        <!--<div class="slider__item">
+                        <div class="slider__item">
                             <img src="img/example_4.jpg" alt="psychology" class="example_img">
                             <p class="example_txt">Сайт средств связи и коммуникации</p>
                         </div>
@@ -118,9 +118,9 @@
                         <div class="slider__item">
                             <img src="img/example_9.jpg" alt="psychology" class="example_img">
                             <p class="example_txt">Сайт рецептов здорового питания</p>
-                        </div>-->
+                        </div>
                     </div>
-                <a href="#" class="to-get-more"><span class="get-more">Заказать проект</span></a>
+                <span class="get-more">Заказать проект</span><!--<a href="#" class="to-get-more"></a>-->
                 </div>
         </article>
         <section class="prices">
@@ -184,6 +184,24 @@
                         <button type="submit" class="popup__btn-send">Отправить</button>
                     </form>
                 </div>
+            </div>
+        </div>
+    </div>
+    <div id="myModal" class="modal">
+        <div class="myModal__area"></div>
+        <div class="myModal__body">
+            <div class="myModal__content">
+                <span class="myModal__close">+</span>
+                <div class="myModal__title">Поговорим о проекте</div>
+                <form class="popup__form" action="#" method="GET">
+                    <label for="">Как к вам обращаться:</label><br />
+                    <input type="text" name="username" placeholder="Мое имя"><br />
+                    <label for="">Телефон для связи:</label><br />
+                    <input type="tel" name="phone-number" id="phone-number" placeholder="Мой номер телефона"><br />
+                    <label for="">E-mail для связи:</label><br />
+                    <input type="email" name="mymail" id="myMail" placeholder="Мой E-mail"><br />
+                    <button type="submit" class="popup__btn-send">Отправить</button>
+                </form>
             </div>
         </div>
     </div>

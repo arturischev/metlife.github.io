@@ -239,10 +239,11 @@ button {
     color: #fff;
     padding: 20px;
     margin: 50px auto;
+    cursor: pointer;
 }
-.to-get-more {
+/* .to-get-more {
     text-decoration: none;
-}
+} */
 .photo-wrapper {
     height: 650px;
     width: 600px;
@@ -398,7 +399,9 @@ button {
     position: relative;
     padding: 0 30px;
 }
-.slick-slider{}
+.slick-slider{
+    margin-top: 50px;
+}
 /* Слайдер запущен */
 .slick-slider.slick-initialized{}
 /* Слайдер с точками */
@@ -659,7 +662,7 @@ button {
     padding: 15px 0;
 }
 /*======================  P O P U P  ======================*/
-.popup {
+.popup, .modal {
     position: fixed;
     width: 100%;
     height: 100%;
@@ -680,21 +683,22 @@ button {
     transform: perspective(600px) translate(0px, 0px) rotateX(0deg);
     opacity: 1;
 }
-.popup__area{
+.popup__area, .myModal__area{
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
+    cursor: pointer;
 }
-.popup__body {
+.popup__body, .myModal__body {
     min-height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 30px 10px;
 }
-.popup__content {
+.popup__content, .myModal__content {
     border-radius: 10px;
     background-color: #fff;
     color: #000;
@@ -705,15 +709,16 @@ button {
     opacity: 0;
     transform: perspective(600px) translate(0px, -100%) rotateX(45deg);
 }
-.popup_close {
+.popup_close, .myModal__close {
     position: absolute;
     top: 5px;
     right: 10px;
     text-decoration: none;
     transform: rotate(45deg);
     font-size: 32px;
+    cursor: pointer;
 }
-.popup__title {
+.popup__title, .myModal__title {
     font-size: 40px;
     color: #ff4e2e;
     margin: 0 0 1em 0;
@@ -748,6 +753,17 @@ button {
     padding: 15px 0;
     cursor: pointer;
 }
+/* .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+} */
 /*====================== MEDIA QUERY ======================*/
 
 

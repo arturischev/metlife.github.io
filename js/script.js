@@ -3,6 +3,29 @@ $(document).ready(function(){
         $('.header__burger,.top-menu').toggleClass('active');
         $('body').toggleClass('lock');
     });
+
+    $('.get-more').on('click', function() {
+        $('.modal').css({
+            'opacity': 1,
+            'visibility': 'visible'    
+    });
+        $('.myModal__content').css({
+            'opacity': 1,
+            'transform':'perspective(600px) translate(0px, 0px) rotateX(0deg)'
+        });
+    });
+
+    $('.myModal__close, .myModal__area').on('click', function() {
+        $('.modal').css({
+            'opacity': 0,
+            'visibility': 'hidden'    
+    });
+        $('.myModal__content').css({
+            'opacity': 0,
+            'transform':'perspective(600px) translate(0px, -100%) rotateX(45deg)'
+        });
+    });
+
     $('.slider').slick({
         arrows:true,
         dots:true,
@@ -22,6 +45,20 @@ $(document).ready(function(){
         swipe:true,
         touchThreshold:5,
         touchMove:true,
-        waitForAnimate:true
+        waitForAnimate:true,
+        responsive: [
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow:2,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow:1,
+                }
+            }
+        ]
     });
 });
