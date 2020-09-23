@@ -995,6 +995,7 @@ button {
         0%{transform: rotate(0deg) translate(0px, 0px);}
         100%{transform: rotate(10deg) translate(-70px, -480px);}
     }
+
     .prices h3 {
         line-height: 1.8em;
     }
