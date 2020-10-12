@@ -4,17 +4,11 @@
     font-style: normal;
     font-weight: 100;
     src: url('../fonts/roboto-v20-latin_cyrillic-100.eot');
-    /* IE9 Compat Modes */
     src: local('Roboto Thin'), local('Roboto-Thin'),
-        url('../fonts/roboto-v20-latin_cyrillic-100.eot?#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
         url('../fonts/roboto-v20-latin_cyrillic-100.woff2') format('woff2'),
         /* Super Modern Browsers */
-        url('../fonts/roboto-v20-latin_cyrillic-100.woff') format('woff'),
-        /* Modern Browsers */
-        url('../fonts/roboto-v20-latin_cyrillic-100.ttf') format('truetype'),
-        /* Safari, Android, iOS */
-        url('../fonts/roboto-v20-latin_cyrillic-100.svg#Roboto') format('svg');
+        url('../fonts/roboto-v20-latin_cyrillic-100.woff') format('woff');
+    /* Modern Browsers */
     /* Legacy iOS */
 }
 
@@ -24,17 +18,10 @@
     font-style: italic;
     font-weight: 100;
     src: url('../fonts/roboto-v20-latin_cyrillic-100italic.eot');
-    /* IE9 Compat Modes */
     src: local('Roboto Thin Italic'), local('Roboto-ThinItalic'),
-        url('../fonts/roboto-v20-latin_cyrillic-100italic.eot?#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
         url('../fonts/roboto-v20-latin_cyrillic-100italic.woff2') format('woff2'),
         /* Super Modern Browsers */
-        url('../fonts/roboto-v20-latin_cyrillic-100italic.woff') format('woff'),
-        /* Modern Browsers */
-        url('../fonts/roboto-v20-latin_cyrillic-100italic.ttf') format('truetype'),
-        /* Safari, Android, iOS */
-        url('../fonts/roboto-v20-latin_cyrillic-100italic.svg#Roboto') format('svg');
+        url('../fonts/roboto-v20-latin_cyrillic-100italic.woff') format('woff');
     /* Legacy iOS */
 }
 
@@ -44,17 +31,10 @@
     font-style: normal;
     font-weight: 400;
     src: url('../fonts/roboto-v20-latin_cyrillic-regular.eot');
-    /* IE9 Compat Modes */
     src: local('Roboto'), local('Roboto-Regular'),
-        url('../fonts/roboto-v20-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
         url('../fonts/roboto-v20-latin_cyrillic-regular.woff2') format('woff2'),
         /* Super Modern Browsers */
-        url('../fonts/roboto-v20-latin_cyrillic-regular.woff') format('woff'),
-        /* Modern Browsers */
-        url('../fonts/roboto-v20-latin_cyrillic-regular.ttf') format('truetype'),
-        /* Safari, Android, iOS */
-        url('../fonts/roboto-v20-latin_cyrillic-regular.svg#Roboto') format('svg');
+        url('../fonts/roboto-v20-latin_cyrillic-regular.woff') format('woff');
     /* Legacy iOS */
 }
 
@@ -64,17 +44,10 @@
     font-style: italic;
     font-weight: 400;
     src: url('../fonts/roboto-v20-latin_cyrillic-italic.eot');
-    /* IE9 Compat Modes */
     src: local('Roboto Italic'), local('Roboto-Italic'),
-        url('../fonts/roboto-v20-latin_cyrillic-italic.eot?#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
         url('../fonts/roboto-v20-latin_cyrillic-italic.woff2') format('woff2'),
         /* Super Modern Browsers */
-        url('../fonts/roboto-v20-latin_cyrillic-italic.woff') format('woff'),
-        /* Modern Browsers */
-        url('../fonts/roboto-v20-latin_cyrillic-italic.ttf') format('truetype'),
-        /* Safari, Android, iOS */
-        url('../fonts/roboto-v20-latin_cyrillic-italic.svg#Roboto') format('svg');
+        url('../fonts/roboto-v20-latin_cyrillic-italic.woff') format('woff');
     /* Legacy iOS */
 }
 
@@ -84,17 +57,10 @@
     font-style: normal;
     font-weight: 700;
     src: url('../fonts/roboto-v20-latin_cyrillic-700.eot');
-    /* IE9 Compat Modes */
     src: local('Roboto Bold'), local('Roboto-Bold'),
-        url('../fonts/roboto-v20-latin_cyrillic-700.eot?#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
         url('../fonts/roboto-v20-latin_cyrillic-700.woff2') format('woff2'),
         /* Super Modern Browsers */
-        url('../fonts/roboto-v20-latin_cyrillic-700.woff') format('woff'),
-        /* Modern Browsers */
-        url('../fonts/roboto-v20-latin_cyrillic-700.ttf') format('truetype'),
-        /* Safari, Android, iOS */
-        url('../fonts/roboto-v20-latin_cyrillic-700.svg#Roboto') format('svg');
+        url('../fonts/roboto-v20-latin_cyrillic-700.woff') format('woff');
     /* Legacy iOS */
 }
 
@@ -104,17 +70,10 @@
     font-style: italic;
     font-weight: 700;
     src: url('../fonts/roboto-v20-latin_cyrillic-700italic.eot');
-    /* IE9 Compat Modes */
     src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'),
-        url('../fonts/roboto-v20-latin_cyrillic-700italic.eot?#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
         url('../fonts/roboto-v20-latin_cyrillic-700italic.woff2') format('woff2'),
         /* Super Modern Browsers */
-        url('../fonts/roboto-v20-latin_cyrillic-700italic.woff') format('woff'),
-        /* Modern Browsers */
-        url('../fonts/roboto-v20-latin_cyrillic-700italic.ttf') format('truetype'),
-        /* Safari, Android, iOS */
-        url('../fonts/roboto-v20-latin_cyrillic-700italic.svg#Roboto') format('svg');
+        url('../fonts/roboto-v20-latin_cyrillic-700italic.woff') format('woff');
     /* Legacy iOS */
 }
 
@@ -131,6 +90,7 @@
 html,
 body {
     height: 100%;
+    width: 100%;
 }
 
 img {
@@ -143,17 +103,15 @@ body {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    color: #555;
+    color: #1f1f24;
     line-height: 1.3;
 }
 
-h2 {
+.section-title {
     font-size: 54px;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
-    color: #555;
     text-align: center;
+    padding-top: 100px;
 }
 
 button {
@@ -161,8 +119,9 @@ button {
 }
 
 /*==============FINISH RESET==================*/
-.wraper {
-    /* max-width: 2000px; */
+.wrapper {
+    max-width: 2000px;
+    margin: 0 auto;
 }
 
 .header {
@@ -180,7 +139,7 @@ button {
     position: fixed;
     padding: 30px 0;
     width: 100%;
-    z-index: 5;
+    z-index: 3;
 }
 
 .header-ribbon:before {
@@ -191,7 +150,7 @@ button {
     width: 100%;
     height: 100%;
     background-color: #fbfbfb;
-    z-index: 2;
+    z-index: 3;
 }
 
 .header-wrapper {
@@ -209,25 +168,25 @@ button {
 
 .header-menu {
     display: flex;
-    padding-left: 20px;
+    padding-left: 30px;
 }
 
 .header-menu__item {
-    list-style: none;
-    padding-right: 20px;
     position: relative;
     z-index: 3;
+    list-style: none;
+    padding-right: 20px;
 }
 
-.header-menu a {
-    color: #555;
+.scrollto {
+    color: #1f1f24;
     text-decoration: none;
-    text-transform: uppercase;
 }
 
-.header-menu a:hover {
-    text-decoration: underline;
-    color: #fc557c;
+.scrollto:hover {
+    color: #ff4e2e;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #ff4e2e;
 }
 
 .header-phone {
@@ -238,13 +197,21 @@ button {
     z-index: 3;
 }
 
+.header-phonenumber {
+    text-decoration: none;
+    color: #1f1f24;
+}
+
 .call-me {
     color: #ff4e2e;
+    font-size: 18px;
     border: 1px solid #f82370;
     border-radius: 5px;
+    outline: inherit;
     padding: 15px 40px;
     position: relative;
     display: block;
+    cursor: pointer;
     z-index: 3;
 }
 
@@ -269,17 +236,6 @@ button {
     padding-right: 20px;
 }
 
-.header-content__phio {
-    font-size: 80px;
-    font-weight: 700;
-    color: #555;
-}
-
-.header-content__profession {
-    font-size: 25px;
-    color: #8993ad;
-}
-
 .header-content {
     position: relative;
     height: 750px;
@@ -288,27 +244,46 @@ button {
     justify-content: space-between;
 }
 
-.header-block {
-    height: 600px;
+.header-textblock {
+    height: 500px;
     align-self: flex-end;
+}
+
+.header-textblock__name {
+    font-size: 76px;
+    font-weight: 700;
+    padding-left: 30px;
+}
+
+.header-textblock__profession {
+    font-size: 25px;
+    color: #8993ad;
+    padding-left: 30px;
 }
 
 .get-more {
     display: block;
     width: 270px;
-    height: 60px;
+    /* height: 60px; */
     text-align: center;
     background-color: #ff4e2e;
     border-radius: 5px;
+    outline: inherit;
     color: #fff;
+    font-size: 20px;
     padding: 20px;
     margin: 50px auto;
     cursor: pointer;
 }
 
+.get-more__top {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
 .header-photo {
     height: 650px;
-    width: 600px;
+    width: 445px;
     align-self: flex-end;
 }
 
@@ -316,12 +291,13 @@ button {
     height: 100%;
 }
 
-.header-flaers {
+.header-flyers {
+    order: 2;
     font-size: 36px;
     font-weight: bold;
 }
 
-.header-fliers__item_brackets {
+.header-flyers__item_brackets {
     position: absolute;
     right: 0;
     width: 100px;
@@ -339,7 +315,7 @@ button {
     animation-fill-mode: forwards;
 }
 
-.header-fliers__item_diez {
+.header-flyers__item_diez {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -358,7 +334,7 @@ button {
     animation-fill-mode: forwards;
 }
 
-.header-fliers__item_slash {
+.header-flyers__item_slash {
     position: absolute;
     top: 50%;
     width: 100px;
@@ -376,7 +352,7 @@ button {
     animation-fill-mode: forwards;
 }
 
-.header-fliers__item_divtop {
+.header-flyers__item_divtop {
     position: absolute;
     left: 0;
     width: 100px;
@@ -394,7 +370,7 @@ button {
     animation-fill-mode: forwards;
 }
 
-.header-fliers__item_divbottom {
+.header-flyers__item_divbottom {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -432,7 +408,7 @@ button {
     }
 
     100% {
-        transform: rotate(20deg) translate(-1000px, 100px);
+        transform: rotate(20deg) translate(-1000px, 150px);
     }
 }
 
@@ -467,10 +443,6 @@ button {
 }
 
 /*===============examples==================*/
-.container h2 {
-    padding-top: 100px;
-    overflow: hidden;
-}
 
 .services {
     margin: 50px auto;
@@ -496,9 +468,10 @@ button {
     margin: 30px auto;
 }
 
-.service p {
+.service-txt {
     text-align: center;
     color: #8993ad;
+    font-size: 18px;
 }
 
 /*===============examples==================*/
@@ -533,12 +506,17 @@ button {
     position: absolute;
     top: 50%;
     margin: -60px 0px 0px 0px;
-    z-index: 10;
+    z-index: 1;
     font-size: 0;
     width: 60px;
     height: 60px;
     border-radius: 50%;
     box-shadow: 0 0 7px 7px #00000030;
+    outline: inherit;
+}
+
+.slick-arrow:hover {
+    cursor: pointer;
 }
 
 /* Стрелка влево */
@@ -556,6 +534,7 @@ button {
 
 /* Точки (булиты) */
 .slick-dots {
+    margin-top: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -563,13 +542,18 @@ button {
 
 .slick-dots li {
     list-style: none;
-    margin: 0px 10px;
+    margin: 0px 15px;
+}
+
+.slick-dots li:hover {
+    cursor: pointer;
 }
 
 /* Активная точка */
 .slick-dots li.slick-active button {
     background-color: transparent;
-    border: 1px solid rgb(90, 90, 90);
+    border: 1px solid #ff4e2e;
+    outline: none;
 }
 
 /* Элемент точки */
@@ -577,8 +561,9 @@ button {
     font-size: 0;
     width: 10px;
     height: 10px;
-    background-color: rgb(90, 90, 90);
+    background-color: #ff4e2e;
     border-radius: 50%;
+    outline: none;
 }
 
 /*===============CARUSEL finish==================*/
@@ -593,6 +578,12 @@ button {
     text-align: center;
     color: #8993ad;
     padding-top: 20px;
+    font-size: 20px;
+}
+
+.slider__item {
+    outline: none;
+    /* cursor: pointer; */
 }
 
 /*===============PRICES==================*/
@@ -600,13 +591,13 @@ button {
     background: linear-gradient(to right top, #ff8c5c, #ff2f96);
 }
 
-.prices h3 {
+.prices-title {
     padding: 70px 115px 20px;
     color: #fff;
     font-size: 45px;
 }
 
-.prices p {
+.prices-text {
     padding: 20px 115px 80px;
     color: #fff;
     font-size: 18px;
@@ -620,7 +611,7 @@ button {
     color: #fff;
 }
 
-.price-flier__item_brackets1 {
+.price-flyers__item_brackets1 {
     width: 100px;
     position: absolute;
     top: -320px;
@@ -628,7 +619,7 @@ button {
     transform: rotate(30deg);
 }
 
-.price-flier__item_diez {
+.price-flyers__item_diez {
     width: 100px;
     position: absolute;
     bottom: 50px;
@@ -636,7 +627,7 @@ button {
     transform: rotate(20deg);
 }
 
-.price-flier__item_slash {
+.price-flyers__item_slash {
     width: 100px;
     position: absolute;
     top: -300px;
@@ -644,7 +635,7 @@ button {
     transform: rotate(-30deg);
 }
 
-.price-flier__item_div {
+.price-flyers__item_div {
     width: 100px;
     position: absolute;
     bottom: 20px;
@@ -652,7 +643,7 @@ button {
     transform: rotate(20deg);
 }
 
-.price-flier__item_brackets2 {
+.price-flyers__item_brackets2 {
     width: 100px;
     position: absolute;
     bottom: 50px;
@@ -677,7 +668,7 @@ button {
 }
 
 .bottom-menu {
-    padding: 80px 0;
+    padding: 50px 0;
     line-height: 2;
     list-style: none;
 }
@@ -689,9 +680,15 @@ button {
 
 .footer-contacts {
     min-width: 350px;
-    padding: 80px 10px;
+    padding: 50px 10px;
     font-size: 24px;
-    line-height: 2;
+    color: #1f1f24;
+    line-height: 2.5em;
+}
+
+.footer-mailto {
+    text-decoration: none;
+    color: #1f1f24;
 }
 
 .fa {
@@ -705,13 +702,13 @@ button {
 }
 
 .footer-social {
-    padding: 80px 10px;
+    padding: 60px 10px;
     min-width: 250px;
-
 }
 
 .footer-icons {
-    margin-top: 50px;
+    list-style: none;
+    margin-top: 10px;
     height: 37px;
     display: flex;
     justify-content: space-between;
@@ -783,6 +780,7 @@ button {
     overflow-x: hidden;
     overflow-y: auto;
     transition: all 0.8s ease 0s;
+    z-index: 3;
 }
 
 .popup:target {
@@ -862,6 +860,11 @@ button {
     margin: 10px auto;
     border: 1px solid #ff4e2e;
     border-radius: 5px;
+    outline: inherit;
+}
+
+.popup__form input:focus {
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.8);
 }
 
 .popup__btn-send {
@@ -872,6 +875,7 @@ button {
     color: #ffffff;
     background-color: #ff4e2e;
     border-radius: 5px;
+    outline: inherit;
     margin: 20px auto;
     padding: 15px 0;
     cursor: pointer;
@@ -879,25 +883,26 @@ button {
 
 /*todo====================== MEDIA QUERY ======================*/
 
-/**Экстрабольшие девайсы (большие десктопы, >= 1200px)*/
+/**Экстрабольшие девайсы (большие десктопы, <= 1200px)*/
 @media screen and (max-width:1200px) {
-    .header-content__phio {
-        font-size: 52px;
-    }
-
-    .header-content__profession {
-        font-size: 20px;
-    }
 
     .header {
-        background-color: #fbfbfb;
         background: url('../img/bubble_gum.png') 130% 100% no-repeat;
         background-size: 778px auto;
     }
 
-    .header-block {
-        height: 500px;
+    .header-textblock {
+        height: 450px;
     }
+
+    .header-textblock__name {
+        font-size: 55px;
+    }
+
+    .header-textblock__profession {
+        font-size: 20px;
+    }
+
 
     /*---------A N I M A T I O N--------*/
     @keyframes move-brackets {
@@ -906,7 +911,7 @@ button {
         }
 
         100% {
-            transform: rotate(45deg) translate(-600px, 620px);
+            transform: rotate(45deg) translate(-600px, 650px);
         }
     }
 
@@ -936,7 +941,7 @@ button {
         }
 
         100% {
-            transform: rotate(-10deg) translate(800px, 130px);
+            transform: rotate(-10deg) translate(800px, 145px);
         }
     }
 
@@ -950,28 +955,28 @@ button {
         }
     }
 
-    .prices h3 {
+    .prices-title {
         padding: 70px 50px 20px;
     }
 
-    .prices p {
+    .prices-text {
         padding: 20px 50px 80px;
     }
 
-    .price-flier__item_brackets1 {
+    .price-flyers__item_brackets1 {
         left: 110px;
     }
 
-    .price-flier__item_diez {
+    .price-flyers__item_diez {
         bottom: 10px;
     }
 
-    .price-flier__item_slash {
+    .price-flyers__item_slash {
         top: -340px;
     }
 }
 
-/* *===============Большие девайсы (десктопы, >= 992px)*/
+/* *===============Большие девайсы (десктопы, <= 992px)==================*/
 @media screen and (max-width:992px) {
     body.lock {
         overflow: hidden;
@@ -988,6 +993,7 @@ button {
 
     .header__burger {
         display: block;
+        outline: none;
         position: relative;
         width: 30px;
         height: 20px;
@@ -998,7 +1004,7 @@ button {
 
     .header__burger span {
         position: absolute;
-        background-color: #555;
+        background-color: #ff4e2e;
         width: 100%;
         height: 2px;
         left: 0;
@@ -1009,7 +1015,7 @@ button {
     .header__burger:before,
     .header__burger:after {
         content: '';
-        background-color: #555;
+        background-color: #ff4e2e;
         position: absolute;
         width: 100%;
         height: 2px;
@@ -1049,7 +1055,7 @@ button {
         width: 100%;
         height: 100%;
         overflow: auto;
-        background-color: #feb89a;
+        background-color: #f3f3f3;
         padding: 70px 0 0 0;
         /* display: block; */
         flex-direction: column;
@@ -1066,6 +1072,16 @@ button {
         padding: 0 0 20px 20px;
     }
 
+    .scrollto {
+        color: #1f1f24;
+        text-decoration: none;
+    }
+
+    .scrollto:hover {
+        color: #ff4e2e;
+        border-bottom: 1px solid #ff4e2e;
+    }
+
     .header-content {
         padding-top: 60px;
     }
@@ -1076,33 +1092,29 @@ button {
         overflow: hidden;
         background-color: #fbfbfb;
         background: url('../img/bubble_gum.png') 170% 100% no-repeat;
-        background-size: 650px auto;
-    }
-
-    .header-content__phio {
-        font-size: 44px;
-    }
-
-    .header-content__profession {
-        font-size: 16px;
+        background-size: 600px auto;
     }
 
     .header-content {
-        padding-top: 100px;
+        height: 650px;
     }
 
-    .header-block .get-more {
-        width: 220px;
-        height: 50px;
-        text-align: center;
-        border-radius: 5px;
-        color: #fff;
-        padding: 20px;
-        margin: 50px;
+    .header-textblock {
+        height: 360px;
     }
 
     .header-photo {
-        height: 580px;
+        height: 520px;
+        width: 350px;
+        /* align-self: flex-end; */
+    }
+
+    .header-textblock__name {
+        font-size: 42px;
+    }
+
+    .header-textblock__profession {
+        font-size: 16px;
     }
 
     /*---------A N I M A T I O N--------*/
@@ -1132,7 +1144,7 @@ button {
         }
 
         100% {
-            transform: rotate(-10deg) translate(-0px, -200px);
+            transform: rotate(-10deg) translate(-20px, -200px);
         }
     }
 
@@ -1157,26 +1169,42 @@ button {
     }
 
     /*==FROM-TO==*/
-    .prices h3 {
+    .prices-title {
         padding: 50px 30px 20px;
         font-size: 32px;
     }
 
-    .price-flier__item_brackets1 {
+    .price-flyers__item_brackets1 {
         top: -280px;
     }
 
-    .price-flier__item_slash {
+    .price-flyers__item_slash {
         top: -300px;
     }
 
-    .price-flier__item_div {
+    .price-flyers__item_div {
         bottom: 10px;
         left: 50%;
     }
+
+    .footer-menu {
+        padding: 0px 35px;
+    }
+
+    .bottom-menu {
+        padding: 20px 0;
+    }
+
+    .footer-contacts {
+        padding: 20px 35px;
+    }
+
+    .footer-social {
+        padding: 20px 35px;
+    }
 }
 
-/* *========Средние девайсы («таблетки», >= 768px)===*/
+/* *========Средние девайсы («таблетки», <= 768px)=================*/
 @media screen and (max-width:768px) {
     .header {
         height: 990px;
@@ -1187,7 +1215,7 @@ button {
         flex-wrap: wrap;
     }
 
-    .header-block {
+    .header-textblock {
         order: 3;
         height: 600px;
         width: 100%;
@@ -1195,15 +1223,16 @@ button {
         text-align: center;
     }
 
-    .header-content__phio {
-        font-size: 70px;
+    .header-textblock__name {
+        padding-top: 20px;
+        font-size: 52px;
     }
 
-    .header-content__profession {
+    .header-textblock__profession {
         font-size: 32px;
     }
 
-    .header-block .get-more {
+    .get-more {
         width: 80%;
         height: 80px;
         text-align: center;
@@ -1211,11 +1240,11 @@ button {
         border-radius: 5px;
         color: #fff;
         padding: 17px;
-        margin: 50px auto;
+        margin: 30px auto;
     }
 
     .header-photo {
-        height: 580px;
+        height: 650px;
         width: 100%;
     }
 
@@ -1225,10 +1254,8 @@ button {
         text-align: center;
     }
 
-    .header-flaers {
-        order: 2;
-        font-size: 36px;
-        font-weight: bold;
+    .section-title {
+        padding-top: 60px;
     }
 
     .footer-menu {
@@ -1295,11 +1322,11 @@ button {
         }
     }
 
-    .prices h3 {
+    .prices-title {
         line-height: 1.8em;
     }
 
-    .prices p {
+    .prices-text {
         font-size: 28px;
         line-height: 2em;
         padding-bottom: 50px;
@@ -1310,22 +1337,10 @@ button {
     }
 }
 
-/* *==========Малые девайсы («ландшафтные телефоны», >= 576px)====*/
+/* *==========Малые девайсы («ландшафтные телефоны», <= 576px)============*/
 @media screen and (max-width:576px) {
     .header {
         height: 760px;
-    }
-
-    .footer-social .call-me {
-        color: #fff;
-        border: 1px solid #ff4e2e;
-        background-color: #ff4e2e;
-        padding: 15px 40px;
-        display: block;
-        width: 80%;
-        text-align: center;
-        font-size: 20px;
-        margin: 0 auto;
     }
 
     .call-me {
@@ -1336,7 +1351,7 @@ button {
         display: block;
     }
 
-    .header-block {
+    .header-textblock {
         order: 3;
         height: 600px;
         width: 100%;
@@ -1344,23 +1359,18 @@ button {
         text-align: center;
     }
 
-    .header-content__phio {
-        font-size: 40px;
+    .header-textblock__name {
+        padding: 20px 0;
+        font-size: 32px;
     }
 
-    .header-content__profession {
+    .header-textblock__profession {
+        padding-left: 0;
         font-size: 20px;
     }
 
-    .header-block .get-more {
+    .get-more {
         width: 80%;
-        height: 80px;
-        text-align: center;
-        font-size: 20px;
-        border-radius: 5px;
-        color: #fff;
-        padding: 21px;
-        margin: 50px auto;
     }
 
     .header-photo {
@@ -1370,7 +1380,21 @@ button {
 
     .header-photo {
         background: url('../img/bubble_gum.png') 120% 100% no-repeat;
-        background-size: 450px auto;
+        background-size: 490px auto;
+    }
+
+    .section-title {
+        font-size: 34px;
+        padding: 40px 20px;
+    }
+
+    .prices-title {
+        font-size: 26px;
+    }
+
+    .prices-text {
+        font-size: 20px;
+        line-height: 1.5em;
     }
 
     .footer-contacts {
@@ -1381,10 +1405,21 @@ button {
         width: 100%;
     }
 
-    .header-flaers {
-        order: 2;
-        font-size: 36px;
-        font-weight: bold;
+    .footer-social .call-me {
+        color: #fff;
+        border: 1px solid #ff4e2e;
+        background-color: #ff4e2e;
+        padding: 25px 20px;
+        display: block;
+        width: 90%;
+        text-align: center;
+        font-size: 20px;
+        margin: 0 auto;
+    }
+
+    .popup__title,
+    .myModal__title {
+        font-size: 28px;
     }
 
     /*---------A N I M A T I O N--------*/
