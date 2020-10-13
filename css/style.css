@@ -861,6 +861,7 @@ button {
     border: 1px solid #ff4e2e;
     border-radius: 5px;
     outline: inherit;
+    transition: all 0.3s ease 0s;
 }
 
 .popup__form input:focus {
@@ -999,7 +1000,7 @@ button {
         height: 20px;
         position: relative;
         z-index: 3;
-        margin-left: 20px;
+        margin-left: 30px;
     }
 
     .header__burger span {
@@ -1110,7 +1111,7 @@ button {
     }
 
     .header-textblock__name {
-        font-size: 42px;
+        font-size: 40px;
     }
 
     .header-textblock__profession {
@@ -1425,31 +1426,31 @@ button {
     /*---------A N I M A T I O N--------*/
     @keyframes move-brackets {
         100% {
-            transform: rotate(45deg) translate(-140px, 170px);
+            transform: rotate(45deg) translate(-190px, 290px);
         }
     }
 
     @keyframes move-diez {
         100% {
-            transform: rotate(20deg) translate(-380px, -390px);
+            transform: rotate(20deg) translate(-450px, -400px);
         }
     }
 
     @keyframes move-slash {
         100% {
-            transform: rotate(-10deg) translate(-100px, -355px);
+            transform: rotate(-10deg) translate(-190px, -330px);
         }
     }
 
     @keyframes move-divtop {
         100% {
-            transform: rotate(-10deg) translate(260px, 100px);
+            transform: rotate(-10deg) translate(290px, 100px);
         }
     }
 
     @keyframes move-divbottom {
         100% {
-            transform: rotate(10deg) translate(-70px, -410px);
+            transform: rotate(10deg) translate(-70px, -300px);
         }
     }
 }
