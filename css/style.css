@@ -583,6 +583,7 @@ button {
 
 .slider__item {
     outline: none;
+    text-align: center;
     /* cursor: pointer; */
 }
 
