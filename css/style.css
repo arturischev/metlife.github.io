@@ -783,6 +783,11 @@ button {
     z-index: 3;
 }
 
+.modal.active {
+    opacity: 1;
+    visibility: visible;
+}
+
 .popup:target {
     opacity: 1;
     visibility: visible;
@@ -823,6 +828,11 @@ button {
     transition: all 0.8s ease 0s;
     opacity: 0;
     transform: perspective(600px) translate(0px, -100%) rotateX(45deg);
+}
+
+.myModal__content.active {
+    opacity: 1;
+    transform: perspective(600px) translate(0px, 0px) rotateX(0deg);
 }
 
 .popup_close,
