@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <!--, initial-scale=0.4-->
+    <link rel="shortcut icon" href="img/favicon.ico">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <script src="js/jquery.js"></script>
@@ -166,10 +167,14 @@
                 <a href="#header" class="popup_close">+</a>
                 <div class="popup__title">Окно заказа звонка</div>
                 <form class="popup__form" action="#" method="GET">
-                    <label for="username">Как к вам обращаться:</label><br />
-                    <input type="text" name="username" id="username" placeholder="Мое имя"><br />
-                    <label for="userphone">Телефон для связи:</label><br />
-                    <input type="tel" name="userphone" id="userphone" placeholder="Мой номер телефона"><br />
+                    <div class="form__item">
+                        <label for="username" class="form__label">Как к вам обращаться:</label><br />
+                        <input type="text" name="username" id="username" placeholder="Мое имя"><br />
+                    </div>
+                    <div class="form__item">
+                        <label for="userphone" class="form__label">Телефон для связи:</label><br />
+                        <input type="tel" name="userphone" id="userphone" placeholder="Мой номер телефона"><br />
+                    </div>
                     <button type="submit" id="btnphone" class="popup__btn-send">Отправить</button>
                 </form>
             </div>
@@ -182,12 +187,37 @@
                 <span class="myModal__close">+</span>
                 <div class="myModal__title">Поговорим о проекте</div>
                 <form class="popup__form" action="#" method="GET">
-                    <label for="usname">Как к вам обращаться:</label><br />
-                    <input type="text" name="usname" id="usname" placeholder="Мое имя"><br />
-                    <label for="usphone">Телефон для связи:</label><br />
-                    <input type="tel" name="usphone" id="usphone" placeholder="Мой номер телефона"><br />
-                    <label for="usmail">E-mail для связи:</label><br />
-                    <input type="email" name="usmail" id="usmail" placeholder="Мой E-mail"><br />
+                    <div class="form__item">
+                        <label for="usname" class="form__label">Как к вам обращаться:</label><br />
+                        <input type="text" name="usname" id="usname" placeholder="Мое имя"><br />
+                    </div>
+                    <div class="form__item">
+                        <label for="usphone" class="form__label">Телефон для связи:</label><br />
+                        <input type="tel" name="usphone" id="usphone" placeholder="Мой номер телефона"><br />
+                    </div>
+                    <div class="form__item">
+                        <label for="usmail" class="form__label">E-mail для связи:</label><br />
+                        <input type="email" name="usmail" id="usmail" placeholder="Мой E-mail"><br />
+                    </div>
+                    <div class="form__item">
+                        <div class="form__label">Планируемые работы:</div>
+                        <div class="options">
+                            <div class="options__item">
+                                <input id="formNewSite" checked type="radio" value="new" name="site" class="options__input">
+                                <label for="formNewSite" class="options__label"><span>Создание&nbsp;нового&nbsp;сайта</span></label>
+                            </div>
+                            <div class="options__item">
+                                <input id="formOldSite" type="radio" value="old" name="site" class="options__input">
+                                <label for="formOldSite" class="options__label"><span>Редактирование&nbsp;действующего&nbsp;сайта</span></label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form__item">
+                        <div class="checkbox">
+                            <input id="formAgreement" checked type="checkbox" name="agreement" class="checkbox__input">
+                            <label for="formAgreement" class="checkbox__label"><span>Я даю свое согласие на обработку персональных данных в соответствии с правилами*</span></label>
+                        </div>
+                    </div>
                     <button type="submit" id="btnconnect" class="popup__btn-send">Отправить</button>
                 </form>
             </div>
